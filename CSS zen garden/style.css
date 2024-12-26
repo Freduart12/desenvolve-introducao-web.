@@ -1,0 +1,160 @@
+:root {
+    --cor-fundo: #37474F; 
+    --cor-texto: #FF7043; 
+    --cor-destaque: #007bff; 
+    --cor-destaque-hover: #0056b3; 
+    --cor-fundo-secundario: #F5E9DA; 
+    --cor-sombra: rgba(0, 0, 0, 0.1); 
+}
+
+
+body {
+    background-color: var(--cor-fundo); 
+    color: var(--cor-texto); 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: var(--cor-texto);
+}
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--cor-destaque);
+}
+section {
+    background-color: var(--cor-fundo-secundario);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--cor-sombra);
+}
+
+.summary, .preamble {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--cor-destaque-hover);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: var(--cor-destaque);
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: var(--cor-destaque-hover);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: var(--cor-fundo-secundario);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--cor-sombra);
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    margin: 0 10px;
+    color: var(--cor-destaque);
+    text-decoration: none;
+    font-size: 1rem;
+}
+footer a:hover {
+    color: var(--cor-destaque-hover);
+}
+
+
+.explanation, .participation, .benefits, .requirements {
+    background-color: var(--cor-fundo-secundario);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--cor-sombra);
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: var(--cor-texto);
+    margin-top: 0;
+}
+
+.explanation p, .participation p, .benefits p, .requirements p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+.design-selection ul, .design-archives ul, .zen-resources ul {
+    padding: 0;
+}
+
+.design-selection li, .design-archives li, .zen-resources li {
+    margin-bottom: 10px;
+}
+
+.design-selection a, .design-archives a, .zen-resources a {
+    font-size: 1rem;
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+.design-selection a:hover, .design-archives a:hover, .zen-resources a:hover {
+    color: var(--cor-destaque-hover);
+}
